@@ -1,0 +1,64 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.pyd
+
+# === Environnements ===
+.env
+.venv/
+venv/
+ENV/
+env/
+.idea/
+.vscode/
+
+# === Jupyter notebooks ===
+.ipynb_checkpoints/
+
+# === Données ===
+data/raw/
+data/processed/
+data/train/
+data/test/
+*.csv
+*.parquet
+*.h5
+*.db
+*.sqlite
+
+# === Modèles ===
+*.hdf5
+*.pt
+*.pth
+*.joblib
+*.pkl
+models/*.h5
+models/*.pt
+models/*.pkl
+
+# === Logs et checkpoints ===
+logs/
+*.log
+*.ckpt
+*.tmp
+
+# === Fichiers système ===
+.DS_Store
+Thumbs.db
+
+# === Outputs divers ===
+__results__/
+outputs/
+*.out
+*.bak
+*.old
+
+# === Streamlit ===
+.streamlit/config.toml

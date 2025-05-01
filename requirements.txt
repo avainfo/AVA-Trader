@@ -1,0 +1,30 @@
+# Data handling
+pandas>=2.2.3
+numpy>=2.2.5
+
+# Binance API
+ccxt>=4.4.78
+python-binance>=1.0.28
+
+# Technical indicators
+ta>=0.11.0
+
+# Machine learning & Deep learning
+scikit-learn>=1.6.1
+tensorflow>=2.19.0
+keras>=3.9.2
+
+# Visualization
+matplotlib>=3.10.1
+seaborn>=0.13.2
+
+# Utilitaires
+tqdm>=4.67.1
+joblib>=1.4.2
+
+# Notebook & dashboard
+jupyterlab>=4.4.1
+streamlit>=1.45.0
+
+# Pour fixer les versions reproductibles
+python-dotenv>=1.1.0
